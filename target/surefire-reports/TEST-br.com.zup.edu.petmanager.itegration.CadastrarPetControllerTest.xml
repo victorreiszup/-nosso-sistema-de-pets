@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.zup.edu.petmanager.PetmanagerApplicationTests" time="1.519" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.zup.edu.petmanager.itegration.CadastrarPetControllerTest" time="7.159" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,5 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="contextLoads" classname="br.com.zup.edu.petmanager.PetmanagerApplicationTests" time="0.005"/>
+  <testcase name="naoDeveCadastrarUmPetComCampoTipoInvalido" classname="br.com.zup.edu.petmanager.itegration.CadastrarPetControllerTest" time="0.802"/>
+  <testcase name="naoDeveCadastrarUmPetComCampoNomeInvalido" classname="br.com.zup.edu.petmanager.itegration.CadastrarPetControllerTest" time="0.02"/>
+  <testcase name="naoDeveCadastrarUmPetComCampoDataNascimentoNoPresente" classname="br.com.zup.edu.petmanager.itegration.CadastrarPetControllerTest" time="0.028"/>
+  <testcase name="naoDeveCadastrarUmPetComCampoDataNascimentoNoFuturo" classname="br.com.zup.edu.petmanager.itegration.CadastrarPetControllerTest" time="0.014"/>
+  <testcase name="naoDeveCadastrarUmPetComCampoRacaInvalido" classname="br.com.zup.edu.petmanager.itegration.CadastrarPetControllerTest" time="0.011"/>
+  <testcase name="deveCadastrarUmNovoPetComSucesso" classname="br.com.zup.edu.petmanager.itegration.CadastrarPetControllerTest" time="0.048"/>
 </testsuite>
